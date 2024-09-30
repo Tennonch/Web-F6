@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шукач скарбів</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        canvas {
+            border: 1px solid black;
+        }
+
+        #game-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Шукач скарбів</h1>
+    <canvas id="gameCanvas" width="500" height="500"></canvas>
+    <div id="game-info">
+        <p>Натисніть на будь-яку клітинку, щоб почати пошуки скарбів.</p>
+        <p>Знайдено скарбів: <span id="treasures-found">0</span></p>
+        <p>Залишилося скарбів: <span id="treasures-left">5</span></p>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
